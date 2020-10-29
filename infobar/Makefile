@@ -11,3 +11,5 @@ infobar_PRIVATE_FRAMEWORKS = UIKitCore
 
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += infobarpreferences
+include $(THEOS_MAKE_PATH)/aggregate.mk

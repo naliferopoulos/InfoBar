@@ -1,5 +1,7 @@
 #include <dlfcn.h>
-#include <Foundation/Foundation.h>
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 // Explain to the compiler what a _UIStatusBarStringView is.
 @interface _UIStatusBarStringView : UILabel
@@ -11,6 +13,9 @@ typedef NSString* (*helper)(void);
 
 // Store our helpers.
 NSMutableArray* helpers;
+
+// Store whether InfoBar is enabled.
+BOOL isEnabled;
 
 // Helper for the original value.
 NSString* Original()
@@ -26,6 +31,15 @@ static NSString* originalTime = nil;
 
 %ctor
 {
+	// Determine whether InfoBar is enabled.
+	NSDictionary* bundleDefaults = [[NSUserDefaults standardUserDefaults]
+	persistentDomainForName:@"com.naliferopoulos.infobarpreferences"];
+
+	if([[bundleDefaults valueForKey:@"enabled"] isEqual:@1])
+		isEnabled = YES;
+	else
+		isEnabled = NO;
+
 	// Initialize our helpers array.
 	helpers = [[NSMutableArray alloc] init];
 
@@ -91,7 +105,7 @@ static NSString* originalTime = nil;
 -(void) setText:(NSString *)text 
 {
 	// Make sure it is the timer label.
-	if([text containsString:@":"]) 
+	if([text containsString:@":"] && isEnabled) 
 	{
 		// Save the original time for later.
 		originalTime = text;
