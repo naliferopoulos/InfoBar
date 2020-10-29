@@ -1,0 +1,10 @@
+Package: com.naliferopoulos.ibname
+Name: ibname
+Version: 0.0.1
+Depends: com.naliferopoulos.infobar
+Architecture: iphoneos-arm
+Description: InfoBar Name Extension
+Maintainer: Nick Aliferopoulos
+Author: Nick Aliferopoulos
+Section: System
+Tag: role::developer

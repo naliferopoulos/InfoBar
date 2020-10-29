@@ -1,0 +1,10 @@
+Package: com.naliferopoulos.ibipaddr
+Name: ibipaddr
+Version: 0.0.1
+Depends: com.naliferopoulos.infobar
+Architecture: iphoneos-arm
+Description: InfoBar IP Address Extension
+Maintainer: Nick Aliferopoulos
+Author: Nick Aliferopoulos
+Section: System
+Tag: role::developer

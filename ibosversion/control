@@ -1,0 +1,10 @@
+Package: com.naliferopoulos.ibosversion
+Name: ibosversion
+Version: 0.0.1
+Depends: com.naliferopoulos.infobar
+Architecture: iphoneos-arm
+Description: InfoBar OS Version Extension
+Maintainer: Nick Aliferopoulos
+Author: Nick Aliferopoulos
+Section: System
+Tag: role::developer

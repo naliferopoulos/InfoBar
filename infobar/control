@@ -1,0 +1,10 @@
+Package: com.naliferopoulos.infobar
+Name: infobar
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Display information on the status bar.
+Maintainer: Nick Aliferopoulos
+Author: Nick Aliferopoulos
+Section: Tweaks
+

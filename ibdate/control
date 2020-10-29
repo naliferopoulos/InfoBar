@@ -1,0 +1,10 @@
+Package: com.naliferopoulos.ibdate
+Name: ibdate
+Version: 0.0.1
+Depends: com.naliferopoulos.infobar
+Architecture: iphoneos-arm
+Description: InfoBar Date Extension
+Maintainer: Nick Aliferopoulos
+Author: Nick Aliferopoulos
+Section: System
+Tag: role::developer

@@ -1,0 +1,10 @@
+Package: com.naliferopoulos.ibsystemmodel
+Name: ibsystemmodel
+Version: 0.0.1
+Depends: com.naliferopoulos.infobar
+Architecture: iphoneos-arm
+Description: InfoBar System Model Extension
+Maintainer: Nick Aliferopoulos
+Author: Nick Aliferopoulos
+Section: System
+Tag: role::developer

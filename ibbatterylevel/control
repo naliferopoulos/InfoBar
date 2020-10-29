@@ -1,0 +1,10 @@
+Package: com.naliferopoulos.ibbatterylevel
+Name: ibbatterylevel
+Version: 0.0.1
+Depends: com.naliferopoulos.infobar
+Architecture: iphoneos-arm
+Description: InfoBar Battery Level Extension
+Maintainer: Nick Aliferopoulos
+Author: Nick Aliferopoulos
+Section: System
+Tag: role::developer
