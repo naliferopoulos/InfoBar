@@ -43,6 +43,10 @@
 			<string>PSButtonCell</string>
 			<key>label</key>
 			<string>Developer GitHub</string>
+			<key>hasIcon</key>
+			<true/>
+			<key>icon</key>
+			<string>github@2x.png</string>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -51,6 +55,10 @@
 			<string>PSButtonCell</string>
 			<key>label</key>
 			<string>Developer Twitter</string>
+			<key>hasIcon</key>
+			<true/>
+			<key>icon</key>
+			<string>twitter.png</string>
 		</dict>
 		<dict>
 			<key>cell</key>
