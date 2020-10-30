@@ -22,6 +22,38 @@
 			<key>label</key>
 			<string>Enabled</string>
 		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openGithub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Developer GitHub</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Made with ❤️ by Nick Aliferopoulos</string>
+			<key>footerAlignment</key>
+  			<integer>1</integer>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>InfoBar</string>
